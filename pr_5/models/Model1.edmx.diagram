@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b48c7bf5551f4c44b6947fd144a3a9be" Name="Diagram1">
+        <EntityTypeShape EntityType="BakeryDB_1Model.Employees" Width="1.5" PointX="1.5" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.OrderItems" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.Orders" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.ProductionBatches" Width="1.5" PointX="6" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.Products" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.RawMaterials" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.Recipes" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.Suppliers" Width="1.5" PointX="1.5" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.Supplies" Width="1.5" PointX="0.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.SupplyItems" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.TradePoints" Width="1.5" PointX="1.5" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BakeryDB_1Model.Users" Width="1.5" PointX="3.75" PointY="15.375" IsExpanded="true" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_Batches_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_Users_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_OrderItems_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_OrderItems_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_Orders_TradePoints" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_Batches_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_Recipes_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_Recipes_RawMaterials" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_SupplyItems_RawMaterials" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_Supplies_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="BakeryDB_1Model.FK_SupplyItems_Supplies" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
